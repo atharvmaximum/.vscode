@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation bar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #010124;
+    padding: 10px 20px;
+    font-family: 'Poppins',sans-serif;
+    /* border: 3px solid whitesmoke; */
+    box-shadow:  #010124;
+
+    /* line-height: 3px thick whitesmoke; */
+}
+
+/* Left side (icons/buttons) */
+.nav-left {
+    display: flex;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+    text-decoration-color: aliceblue;
+}
+
+.nav-item:hover {
+    background-color: #181642;
+    color:whitesmoke;
+    border-radius: 5px;
+}
+
+/* Right side (search bar and button) */
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+   
+    padding: 8px;
+    border-color: green;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    /* border-radius: 10px; */
+    border-radius: 12px;
+    font-size: 16px;
+   width: 200px;
+}
+
+.search-button {
+    padding: 8px 20px;
+    margin-left: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 1px solid #198754;
+    background-color: #181642;
+     border-radius: 4px;
+    cursor: pointer;
+    color : #198754;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: green;
+    color: white;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #181642;
+    height :100vh;
+}
+.text-layout{
+    display :flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border :1px ;
+    color: #FF2C90;
+    padding: none;   
+    margin-bottom: 10px; 
+}
+.text-page{
+    background-color: #181642;
+     padding: 200px 150px;
+     /* word-spacing: 1px; */
+     font-weight: 400;
+      font-size: 1rem;
+}
+.text{
+    background-color: #181642;
+    padding : 10px ;
+    /* font-weight: lighter; */
+    color :whitesmoke;
+    transition: background-color 0.6s;
+}
+.text-margin{
+    color : whitesmoke;
+
+    /* font-weight: lighter; */
+    padding : 5px 10px;
+}
+.job-button{
+    padding: 15px 25px;
+    margin-left: 8px;
+    border: none;
+    background-color: #FF2C90;
+    /* color: white; */
+     border-radius: 10px;
+    cursor: pointer;
+    color : white;
+    font-size :20px;
+    font-style: bold;
+    transition: background-color 0.3s ease;
+}
+.job-button:hover{
+    background-color:pink ;
+}
+.right{
+    display :flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100vh;              
+    /* border: 1px solid #ccc;      */
+    padding: 100px;
+  
+}

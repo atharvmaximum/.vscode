@@ -1,0 +1,100 @@
+*{
+    padding :0px;
+    margin:0px;
+    box-sizing:border-box;
+   
+}
+body{
+    
+    background-image: url("https://cdn.prod.website-files.com/63053218ec1dde0a99cc4fee/6628e24a08bb4568d96e5c12_D4ltnmSctvk0Petsc98pfaXuOCeA4qjIYqbyt-mv8920gu_ykjJFYoq6jGCL8roU9LuHsHfC-fxSuPXj8muGkPugZrX1XlxUuBmq1sKvOUuxaEAmGVsysgHPohv97UgVjYmKYIm8sDsxdUJa3UxMZi8.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height : 100vh;
+    margin:0;
+           
+}
+.Nav-item_1{
+    display:block;
+    position: fixed;
+    top: 0;
+    height: 4.5rem;
+    padding-bottom: 4.5rem;
+    align-items: flex-start;
+    color: yellowgreen;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 25px;
+    font-family: 'Poppins',sans-serif;
+    /* box-shadow:  whitesmoke; */
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.nav-left{
+    font-family:  'Nunito' !important;
+}
+.nav-item {
+    font-family:  'Nunito' ,!important;
+    color: white;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+     box-sizing: border-box;
+     justify-content: center;
+     align-items: center;
+     text-decoration: none; 
+    padding:  25px  20px;
+    border-radius: 5px; 
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+    text-decoration-color:  #2c323c;
+}
+.nav-item:hover {
+    color: green;
+    border-radius: 20px;
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+.search-button{
+    -moz-box-align: left;
+    padding: 20px 50px;
+    margin-right: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    position: relative;
+    border: 1px solid #198754;
+    background-color: green;
+     border-radius: 30px;
+    cursor: pointer;
+    -moz-box-align: end;
+    color : whitesmoke;
+    transition: background-color 0.3s ease;
+
+}
+.search-button:hover{
+    background-color: #181642;
+    color : white;
+}
+.text-layout{
+    text-align: left;
+      color: aliceblue;
+      margin-block-start: 200px;
+      margin-left: 50px;
+      font-size: 16px;
+      line-height: 1.5;
+      /* background-image: url("https://www.istockphoto.com/vector/electric-car-ev-charge-station-vector-concept-electric-vehicle-charger-energy-gm1406257864-457878892");
+     }
+      */
+}
+
+
+

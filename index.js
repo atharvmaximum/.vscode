@@ -35,6 +35,16 @@
 // const sum = operations.add(a,b);
 // console.log(sum);
 // import add from './operation.js'
-const {add} = require('./operation.js')
-const sum = add(1,2);
-console.log(sum);
+//GIT - modules in  remote nad local should be aligned.
+const {add,product,divide} = require('./operation.js');
+ const sum = add(1,2);
+ const mul = product(5,4);
+ const div = divide(6,2);
+ console.log(sum);
+ console.log(mul);
+ console.log(div);
+// const {product,divide} = require('./operation2.js');
+// const multiply = product(6,4);
+// const div = divide(4,2);
+// console.log(multiply);
+// console.log(div);

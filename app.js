@@ -88,19 +88,19 @@
   // browser ->
   //Node -> we do not have the browser 
   //Node -> V8 +libuv + node related Packages + external Modules 
-  console.log("this is rupam sabale");
+//   console.log("this is rupam sabale");
  
- let a = 24;
- const port = 3000;
+//  let a = 24;
+//  const port = 3000;
 
- http = require('http')
+//  http = require('http')
 
 
- console.log(`the age of rupam Sabale is ${a}`);
- setTimeout(() =>{
-     console.log("executed Later");
+//  console.log(`the age of rupam Sabale is ${a}`);
+//  setTimeout(() =>{
+//      console.log("executed Later");
  
- },1000)
+//  },1000)
  /*node
  .createElement 
  .getElementById
@@ -116,4 +116,80 @@
   // BE - 
   //what is map in js ?
   //call back 
+  const {product,divide} = require('./operation.js');
+const multiply = product(6,4);
+const div = divide(4,2);
+console.log(multiply);
+console.log(div);
+//server : - a server which keeps on listening the request  respectively.
+//LINUX COMMANDS :
+// pwd - path working directory 
+//ls - content of working file init.
+// rm - remove a file.
+// rmdirr - remove a directory and its file.
+//touch - create a file.
+//mkdir - make a directory 
+//cd - change a dirctory 
+// cd.. - select the directory .
+// rm- rf - remove a recursively double folder file.
+//Backend -
+//Node(js environment)
+//database :
+//SQL
+//NoSQL
+//SQL :
+//Graph Db
+//key value pair db
+//time series db
+//Examples of  NoSQL :
+//a] cassandra b]Mongodb
+//example of graph db :
+//graph -> meta
+//example of key -value pair db :
+//a] Redis 
+//Example of time-series db :
+// a] neo4j
+//Example of SQL :
+//a] MySQL 
+//b] Postgres
+//c]Mirae Db
+//Framework/library :
+//It is same for you
+// 1] CSS (Bootstrap library):
+//2] Node -> directly
+//3]Framework -> makes our life easier  a] Express ->  develop backend 
+//Node ->developer basics 
+//EXpress : COre work will be done in easier
+//Because - a framework or llibrary abstrscts away the complexities of a particular techology.
+//flow of a server : - client - > Deo.com -> modem -> ISP ->majority of cables and so on -> server to fetch the request.
+//on asingle machine /laptop there can be more than 1 servers are running 
+//approximation -64000  srvers are running at same time 
+//https ->
+//next lecture ->
+//what are the opensource ?
+// what are the packages ?
+//what is package.json?
+//what is package.lock.json?
+//make our first node server ->
+/*
+node -> modules 
+
+require ->exports
+__dirname 
+__filename
+
+
+app.js
+
+operation.js
+((__dirname, __filename, require, exports,modules) =>{
+    const abcd = 10;
+    })()
+    console.log(abcd);
+    IIFE - immediately invoked Function expression
+*/
+
+
+
+
 
